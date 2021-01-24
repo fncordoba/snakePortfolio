@@ -86,7 +86,9 @@ input {
 	background-color: #fc758c;
 	border: none;
   color: white;
-  margin: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 	padding: 15px 32px;
 	text-align: center;
   text-decoration: none;
