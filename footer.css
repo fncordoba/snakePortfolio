@@ -1,0 +1,20 @@
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    margin-left: 60px;
+    color: grey;
+}
+
+p {
+    flex-direction: row;
+}
+
+#sneakFooter {
+    color: #fc758c;
+}
+
+#iconFooter i {
+    color: grey;
+}

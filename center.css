@@ -3,10 +3,12 @@ i {
 }
 
 h2 {
+  margin: 30px;
 	font-size: 10px;
 }
 
 .title {
+	
 	letter-spacing: 5px;
   text-transform: uppercase;
 }

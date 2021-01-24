@@ -2,6 +2,20 @@ input {
   display: none;
 }
 
+.creativeLogo {
+  padding: 14px;
+  margin: 18px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px solid white;
+}
+
+.branding {
+  font-size: 10px;
+  text-transform: capitalize;
+}
+
 .imgWrapper {
   display: flex;
   justify-content: space-around;
@@ -12,6 +26,21 @@ input {
 .imgGrid {
   flex: 0.25%;
   width: 33%;
+}
+
+#firstImg {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  color: white;
+  background: #fc758c;
+  -moz-box-shadow: 17px -7px 42px #9c969c;
+  -webkit-box-shadow: 17px -7px 42px #9c969c;
+  box-shadow: 17px -7px 42px #9c969c; 
 }
 
 #gripWrapper {
@@ -43,9 +72,36 @@ input {
   width: 300px;
   height: auto;
   margin: 10px;
+  -moz-box-shadow: 17px -7px 42px #9c969c;
+  -webkit-box-shadow: 17px -7px 42px #9c969c;
+  box-shadow: 17px -7px 42px #9c969c;
 }
 
-@media (max-width: 800px) {
+#gridShowBtnWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#gridShowBtn {
+	background-color: #fc758c;
+	border: none;
+  color: white;
+  margin: 20px;
+	padding: 15px 32px;
+	text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+	display: inline-block;
+	font-size: 16px;
+}
+
+#gridShowBtn:hover {
+	background-color: white;
+	border: 1px solid black;
+	color: #fc758c;
+}
+
+@media (max-width: 1000px) {
   #photos {
   -moz-column-count:    2;
   -webkit-column-count: 2;
@@ -53,7 +109,7 @@ input {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 690px) {
   #photos {
   -moz-column-count:    1;
   -webkit-column-count: 1;

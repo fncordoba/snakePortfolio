@@ -6,6 +6,7 @@
       <link rel="stylesheet" href="navBar.css">
       <link rel="stylesheet" href="center.css">
       <link rel="stylesheet" href="gripBody.css">
+      <link rel="stylesheet" href="footer.css">
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -19,7 +20,7 @@
             <label for="check" class="checkbtn">
               <i class="fas fa-bars"></i>
             </label>
-            <label class="logo">Sneak</label>
+            <label class="logo">Sneake</label>
             <div>
               <ul>
                 <li><a href="#">all</a></li>
@@ -27,8 +28,8 @@
                 <li><a href="#">web</a></li>
                 <li><a href="#">photography</a></li>
                 <li><a href="#">app</a></li>
+                <li><img src="https://img.icons8.com/fluent-systems-regular/24/fa314a/search.png"/></li>
               </ul>
-              <i class="fas fa-search"></i>
             </div>
           </nav>
         </div>    
@@ -36,8 +37,14 @@
       <div id="centerWrapper">
         <div id="centerTitle">
           <h1 class="title">explore beyond horizon</h1>
-          <h2 class="firstSubText">Magna mundi referrentur quo, no rebum dignissim qui.</h2>
-          <h2 class="secondSubText">Per quodsi accusata id, agam labores.</h2>
+          <h2 class="firstSubText">
+            <p>
+              Magna mundi referrentur quo, no rebum dignissim qui.
+            </p>
+            <p>
+              Per quodsi accusata id, agam labores.
+            </p>
+          </h2>
           <button type="button" id="showBtn">view our work</button>
         </div>
       </div>
@@ -54,27 +61,45 @@
         </form>
       </div>
       <div id="subNavBarWrapper">
-          <nav id="subNavBar">
-            <ul>
-              <li><a href="#">all</a></li>
-              <li><a href="#">branding</a></li>
-              <li><a href="#">web</a></li>
-              <li><a href="#">photography</a></li>
-              <li><a href="#">app</a></li>
-            </ul>
-          </nav>
+        <nav id="subNavBar">
+          <ul>
+            <li><a href="#">all</a></li>
+            <li><a href="#">branding</a></li>
+            <li><a href="#">web</a></li>
+            <li><a href="#">photography</a></li>
+            <li><a href="#">app</a></li>
+          </ul>
+        </nav>
       </div>
       <section id="photos">
-          <img src="img/photo-1611178206724-76cce39da1d7.jpeg" alt="">
-          <img src="img/photo-1611336291050-b39ff09d531b.jpeg" alt="">
-          <img src="img/photo-1611360022966-018bd7eba328.jpeg" alt="">
-          <img src="img/photo-1611387696625-ea2c48101a44.jpeg" alt="">
-          <img src="img/photo-1611401138000-237b6d8d746d.jpeg" alt="">
-          <img src="img/photo-1611415483576-b1d5a9d8bc5e.jpeg" alt="">
-          <img src="img/photo-1611416274901-faef46b63128.jpeg" alt="">
-          <img src="img/photo-1611417362063-32c5b14035fc.jpeg" alt="">
-          <img src="img/photo-1611418371637-cbef42051463.jpeg" alt="">
+        <div id="firstImgWrapper">
+          <div id="firstImg">
+            <h2 class="creativeLogo">
+              creative logo
+            </h2>
+            <h3 class="branding">
+              branding
+            </h3>
+          </div>
+        </div>
       </section>
+      <div id="gridShowBtnWrapper">
+        <button type="button" id="gridShowBtn">show me more</button>
+      </div>
+    <footer>
+      <span>
+        <p>
+          ©2016 - <span id="sneakFooter">sneak</span> all right reserved
+        </p>
+      </span>
+      <span id="iconsFooter">
+        <i class="fa fa-facebook" aria-hidden="false"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-dribbble" aria-hidden="true"></i>
+        <i class="fa fa-google-plus" aria-hidden="true"></i>
+        <i class="fa fa-youtube" aria-hidden="true"></i>
+      </span>
+    </footer>
   </body>
   <script src="main.js"></script>
 </html>
