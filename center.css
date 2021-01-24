@@ -1,0 +1,42 @@
+i {
+  color: #fc758c;
+}
+
+h2 {
+	font-size: 10px;
+}
+
+.title {
+	letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+#centerWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 90%;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fc758c;
+	color: white;
+}
+
+#showBtn {
+	background-color: white;
+	border: none;
+	color: #fc758c;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+#showBtn:hover {
+	background-color: #fc758c;
+	border: 1px solid black;
+	color: white;
+}

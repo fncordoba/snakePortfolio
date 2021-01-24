@@ -1,0 +1,62 @@
+input {
+  display: none;
+}
+
+.imgWrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 95%;
+}
+
+.imgGrid {
+  flex: 0.25%;
+  width: 33%;
+}
+
+#gripWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#gripWrapper i {
+  margin: 30px 10px 0px 10px;
+}
+
+#subNavBar {
+  display: flex;
+  justify-content: center;
+}
+
+#photos {
+  margin: 0;
+  line-height: 0;
+  -webkit-column-count: 3;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    3;
+  -moz-column-gap:      0px;
+  column-count:         3;
+  column-gap:           0px;  
+}
+
+#photos img {
+  width: 300px;
+  height: auto;
+  margin: 10px;
+}
+
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
