@@ -5,7 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="navBar.css">
       <link rel="stylesheet" href="center.css">
-      <link rel="stylesheet" href="gripBody.css">
+      <link rel="stylesheet" href="gridBody.css">
       <link rel="stylesheet" href="footer.css">
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -27,7 +27,7 @@
               <li><a href="#">web</a></li>
               <li><a href="#">photography</a></li>
               <li><a href="#">app</a></li>
-              <li id="searchIcon"><a href="#"><img src="https://img.icons8.com/fluent-systems-regular/24/fa314a/search.png"/></a></li>
+              <span><img src="https://img.icons8.com/fluent-systems-regular/24/fa314a/search.png"/></span>
             </ul>
           </nav>
         </div>    
@@ -46,15 +46,15 @@
           <button type="button" id="showBtn">view our work</button>
         </div>
       </div>
-      <div id="gripWrapper">
+      <div id="gridWrapper">
         <form action="">
-          <input type="radio" id="gridCheck" name="grid" value="grid">
+          <input type="radio" id="gridCheck" name="grid" value="grid" onclick="validateRadio()">
           <label for="gridCheck" class="checkGridBtn">
             <i class="fas fa-th-large"></i>
           </label>
-          <input type="radio" id="listCheck" name="grid" value="list">
+          <input type="radio" id="listCheck" name="grid" value="list" onclick="validateRadio()">
           <label for="listCheck" class="checkListBtn">
-            <i class="fas fa-grip-lines"></i>
+            <i class="fas fa--lines"></i>
           </label>
         </form>
       </div>
@@ -81,9 +81,9 @@
           </div>
         </div>
       </section>
-      <div id="gridShowBtnWrapper">
+      <span id="gridShowBtnWrapper">
         <button type="button" id="gridShowBtn">show me more</button>
-      </div>
+      </span>
     <footer>
       <div id="textFooter">
         <p>
