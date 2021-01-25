@@ -30,13 +30,3 @@ const DATA = {
    
   const imagesFragment = mapImagesToFragment(DATA.images);
   $photos.appendChild(imagesFragment);
-
-  function validateRadio() {
-      const type = document.getElementsByName("type");
-      const grid = document.getElementsByClassName("photo")
-      if(type[0].checked) { 
-        grid.classList.replace("list", "photo");
-      } else {
-        grid.classList.replace("photo", "list");
-      }
-    };
